@@ -1,0 +1,165 @@
+Aim:
+
+To study various network devices in detail and to connect computers in a Local Area Network (LAN).
+
+
+Network Devices and Their Functions
+
+1. Repeater
+
+A repeater is a device used to regenerate and amplify weak signals in a network.
+
+It operates at the Physical Layer (Layer 1) of the OSI model.
+
+Used when the network cable is very long and the signal becomes weak.
+
+Helps extend the range of a LAN.
+
+Example: Used between two buildings to boost Ethernet signal.
+
+2. Hub
+
+A hub is a basic network device that connects multiple computers in a LAN.
+
+Works at the Physical Layer (Layer 1).
+
+It broadcasts incoming data to all connected ports, causing collisions.
+
+Not secure and slower compared to a switch.
+
+Example: Small home networks (older).
+
+3. Bridge
+
+A bridge operates at the Data Link Layer (Layer 2).
+
+Used to connect two LAN segments and reduce traffic.
+
+It uses MAC addresses to filter traffic.
+
+Helps in dividing a big network into smaller collision domains.
+
+Example: Connecting two departments in a building.
+
+4. Switch
+
+A switch is an advanced device that connects multiple computers in a LAN.
+
+Works at Layer 2 (Data Link).
+
+Unlike a hub, it forwards data only to the intended device, using MAC addresses.
+
+Reduces collisions and increases efficiency.
+
+Example: Used in modern office networks.
+
+5. Router
+
+A router operates at the Network Layer (Layer 3).
+
+It connects multiple networks (LAN-to-LAN, LAN-to-Internet).
+
+Uses IP addresses to route packets.
+
+Supports NAT, DHCP, and security features.
+
+Example: Wi-Fi router at home.
+
+6. Gateway
+
+A gateway is a device that connects different types of networks using different protocols.
+
+Works across all OSI layers.
+
+Performs protocol conversion.
+
+Allows communication between dissimilar networks.
+
+Example: Email gateway, VoIP gateway.
+
+7. NIC (Network Interface Card)
+
+A NIC is a hardware component installed in every computer.
+
+It provides the physical interface to connect to the network.
+
+Has a unique MAC address.
+
+Available as Ethernet and Wireless NIC.
+
+Example: RJ45 Ethernet port in desktops.
+
+8. Browser (You marked this with a red line — so I’ll explain it simply)
+
+A browser is NOT a networking device, but a software application.
+
+It is used to access and view websites over the network.
+
+Examples: Chrome, Firefox.
+
+(If your sir asked to remove it, you can strike it off.)
+
+9. Modem
+
+Modem stands for Modulator–Demodulator.
+
+Converts digital signals ↔ analog signals.
+
+Required when using telephone/cable lines to connect to the Internet.
+
+Used to provide WAN connectivity.
+
+Example: BSNL/ACT broadband modem.
+
+Steps to Connect a LAN
+
+Step 1: Physical Connection
+
+1. Connect each computer’s NIC to the switch using LAN cables.
+
+
+2. Ensure cables are inserted properly into RJ45 ports.
+
+
+3. If using a router, connect the router’s LAN port to the switch.
+
+
+Step 2: Assign IP Addresses
+
+You can assign static IPs manually:
+
+For each system:
+
+Go to Control Panel → Network & Internet → Network Adapter Settings
+
+Right click Ethernet → Properties → IPv4
+
+Set:
+
+IP Address: 192.168.1.x
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.1 (router)
+
+
+Step 3: Test Connectivity
+
+Use ping command:
+
+ping 192.168.1.3
+
+If reply is received → LAN is working.
+
+
+Step 4: File and Resource Sharing (Optional)
+
+Enable file sharing.
+
+Share folders or printers across the LAN.
+
+
+Result:
+
+Successfully studied network devices in detail and connected multiple computers in a Local Area Network (LAN).
+
